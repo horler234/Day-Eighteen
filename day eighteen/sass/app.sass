@@ -1,0 +1,90 @@
+*
+  margin: 0
+  padding: 0
+
+html
+  box-sizing: border-box
+  body
+    background: url('unnamed.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 100vw
+    height: 100vh
+    place-items: center
+    display: grid
+
+form
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,1)
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,1)
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,1)
+  padding: 30px
+  background: #D0D7D9
+
+h1#output
+  color: green
+  font-size: 4rem
+  text-align: center
+
+input
+  background: transparent
+  margin-bottom: 20px
+  font-size: 18px
+
+p.text
+  font-weight: 700
+  text-align: center
+  margin-bottom: 30px
+
+p.label
+  font-weight: 700
+  font-size: 18px
+
+input
+  padding: 10px
+  border: transparent
+  border-bottom: 2px solid #333333
+  border-radius: 0 0 10px 10px
+
+input#interest
+  width: 50px
+  margin-left: 50px
+
+input#months
+  width: 50px
+  margin-left: 78px
+
+input#amount
+  width: 100px
+
+button
+  margin: auto
+  padding: 10px 20px
+  border-radius: 10px
+  cursor: pointer
+  border: transparent
+  font-weight: 700
+  color: #ffffff
+  background: #24CA65
+  transition: .4s ease-in-out
+  display: flex
+  justify-content: center
+  margin-top: 30px
+  &:hover
+    transform: scale(1.1)
+
+span
+  margin-left: 30px
+
+@media (max-width: 768px)
+  h1
+    font-size: 24px
+    text-align: center
+
+  form
+    width: 80%
+
+  p
+    font-size: 14px
+
+  p.label
+    font-size: 14px
